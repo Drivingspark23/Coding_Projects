@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+	<html>
+
+		<head>
+			<meta charset="utf-8" lang="en">
+			<title>Exercises 13G</title>
+			<style>
+
+                /*General*/
+                .container{
+                    width: 400px;
+                    font-family: arial;
+                }
+                .tweet, .link-content{
+                    display: flex;
+                    flex: 1;
+                }
+                .tweet{
+                    margin-bottom: 14px;
+                }
+                .content{
+                    padding-left: 60px;
+                }
+
+                /*Tweet*/
+                .tweet-pfp{
+                    width: 75px;
+                    height: 50px;
+                    border-radius: 50px;
+                    margin-right: 10px;
+                }
+                .tweet-text{
+                    line-height: 20px;
+                }
+                .name{
+                    font-weight: bold;
+                }
+                .username{
+                    color: grey;
+                }
+
+                /*Link*/
+                .link-content{
+                    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.15);
+                    border-radius: 10px;
+                }
+                .link-image{
+                    width: 75px;
+                    height: 80px;
+                    background-color: rgb(216, 216, 216);
+                    border-radius: 10px 0px 0px 10px;
+                }
+                .link-context{
+                    width: 250px;
+                    margin-left: 16px;
+                    line-height: 20px;
+                    padding: 8px 0px 14px 0px;
+                }
+                .youtube{
+                    color: grey;
+                }
+
+            </style>
+		</head>
+
+		<body>
+            <div class="container">
+                <div class="tweet">
+                    <img class="tweet-pfp" src="/assets/cool_1.jpg">
+                    <div class="tweet-text">
+                        <div class="author">
+                            <span class="name">supersimple.dev</span>
+                            <span class="username">&#64;SuperSimpleDev</span>
+                        </div>
+                        <div class="tweet-qoute">
+                            What is backend web development? A complete overview.
+                            New video is up!
+                        </div>
+                    </div>
+                </div>
+                    <div class="content">
+
+                        <div class="link-content">
+
+                            <div class="link-image">
+                            
+                            </div>
+
+                            <div class="link-context">
+
+                                <div class="link-location">
+                                    <span class="youtube">youtube.com</span>
+                                </div>
+
+                                <div class="link-text">
+                                    Backend web development - a complete overview (2021)
+                                </div>
+
+                            </div>
+                        </div>
+                 </div>
+            </div>
+		</body>
+	</html>

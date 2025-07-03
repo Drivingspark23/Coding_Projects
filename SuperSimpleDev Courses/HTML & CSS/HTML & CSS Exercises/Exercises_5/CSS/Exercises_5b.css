@@ -1,0 +1,20 @@
+/*Exercise 5B*/
+
+
+	p{
+		font-family: arial;
+	}
+	
+	.big{
+		font-weight: bold;
+		font-size: 24px;
+		margin: 14px 0px 5px 0px;
+	}
+	
+	.sale{
+	font-style: italic;
+		color: red;
+		margin: 0px 0px 14px 0px;
+	}
+
+	
